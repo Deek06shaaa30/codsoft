@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,500;0,6..12,700;1,6..12,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            Deeksha R
+        </div>
+        <div class="menu">
+            <div class="navlinks">
+                <div><a href="#home">Home</a></div>
+                <div><a href="#skills">Skills</a></div>
+                <div><a href="#contact">Contact</a></div>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div id="intro">
+            Hello! I am <span style="color: burlywood;">Deeksha R!</span><br>
+            I'm a  <span id="element" style="color: burlywood;"></span>
+        </div>
+        <div id="image">
+            <img src="gokul.jpg" height="300" width="350" />
+        </div>
+    </section>
+    <section id="skills">
+        <div class="heading">
+            SKILLS
+        </div>
+        <div id="skillsList">
+        
+            <div class="skillcard">
+                <div class="skillname">HTML</div>
+                <div class="skillimage"><img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"/></div>
+            </div>
+            <div class="skillcard">
+                <div class="skillname">CSS</div>
+                <div class="skillimage"><img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"/></div>
+            </div>
+            <div class="skillcard">
+                <div class="skillname">C</div>
+                <div class="skillimage"><img src="695px-C_Programming_Language.svg.png"/></div>
+            </div>
+            <div class="skillcard">
+                <div class="skillname">C++</div>
+                <div class="skillimage"><img src="ISO_C++_Logo.svg.png"/></div>
+            </div>
+        </div>
+    </section>
+   
+    <section id="contact">
+        <div style="font-size: 1.2em;margin: 20px 0;">
+            <a href="https://drive.google.com/file/d/1c0Bbny8ATHLFnCAboghaDbdXsDMCEFsl/view?usp=drivesdk">Click here</a> to view resume.
+        </div>
+        <div class="heading">
+            CONNECT WITH ME
+        </div>
+
+        <div style="width:400px;display: flex; justify-content: space-around;margin: 20px 0;">
+            <a href="https://github.com/Deek06shaaa30">
+                <i
+                  class="fa-brands fa-github"
+                ></i>
+              </a>
+              <a href="http://linkedin.com/in/deeksha-r-473728266">
+                <i
+                  class="fa-brands fa-linkedin"
+                ></i>
+              </a>
+              <a href="https://instagram.com/_deeksha_30_?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr">
+                <i
+                  class="fa-brands fa-instagram"
+                  
+                ></i>
+              </a>
+        </div>
+
+        <div style="display: flex;flex-direction: column;font-size: 1.2em; align-items: center;justify-content: space-around;height: 100px;">
+            <p>Phone: <a href="tel:+919206388300">+91 9972838389</a></p>
+            <p>Email: <a href="mailto:gokulcs122002@gmail.com">deekshars30@gmail.com</a></p>
+        
+        </div>
+
+        <div class="column right">
+            <div class="text">CONTACT ME</div>
+            <form action="#">
+                <div class="fields">
+                    <div class="field name">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="field email">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                 </div>
+                <div class="field">
+                        <input type="text " placeholder="Topic" required>
+                    </div>
+                    <div class="field textarea">
+                       <textarea cols="30" rows="10" placeholder="Your Queries..." required></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Send Message</button>
+                    </div>
+            </form>
+        </div>  
+    </section>
+    <footer>
+        Copyright &copy; Deeksha R
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', 'Student.','Software Engineer.'],
+          typeSpeed: 50,
+          loop:true
+        });
+      </script>
+</body>
+</html>
