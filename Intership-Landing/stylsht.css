@@ -1,0 +1,250 @@
+* 
+{
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+   box-sizing: border-box;
+   text-decoration: none;
+   text-transform: capitalize;
+   transition: all 0.2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: auto;
+}
+
+body {
+    background: #212531;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header {
+    margin: 0px;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.nav {
+    background-color: #212531;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropbtn {
+    background-color: #212531;
+    color: beige;
+    padding: 16px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    color: beige;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: floralwhite; 
+    color:beige;
+}
+
+.dropbtn:hover {
+    color: beige;
+}
+
+.dropdown-content:hover {
+    color: beige;
+}
+
+.logo img {
+    width: 300px;
+    height: 130px;
+    margin-left: 20px;
+}
+
+.headin {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    font-size: 50px;
+}
+.ed-list {
+    display: inline;
+    margin-right: 20px;
+}
+
+.ed-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.ed-list li a {
+    text-decoration: none;
+    color: beige;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.ed-list li:hover a {
+    color: burlywood;
+}
+
+main {
+    color: beige;
+}
+
+.grade-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0; }
+
+.content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+.register .text {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 20px;
+}
+ 
+.register form .fields{
+    display: flex;
+    height: 50px;
+}
+.register form .field{
+    height: 50px;
+    width: 100%;
+}
+
+.register form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.register form .textarea{
+    height: 50px;
+    width: 120%;
+}
+.register form .name{
+    margin-right: 10px;
+}
+.register form .address{
+    margin-left: 10px;
+}
+
+.register form .field input{
+    height: 45px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.register form .textarea textarea{
+    height: 45px;
+    width: 83.5%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    padding-top: 10px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    resize: none;
+}
+.register form .button{
+    height: 47px;
+    width: 100%; 
+}
+.register form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    background: beige;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.register form .button button:hover{
+    color: bisque;
+    background: none;
+}
+
+footer {
+    background-color: #212531;
+    color: beige;
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color:#212531;
+    border-radius: 6px; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color:#212531; 
+  }
+  
